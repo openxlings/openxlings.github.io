@@ -5,9 +5,13 @@ OpenXlings organization website and xlings documentation, built with Docusaurus.
 ## Development
 
 ```bash
+xlings install
 npm install
 npm run start
 ```
+
+`xlings install` reads [`.xlings.json`](.xlings.json) and installs the Node.js
+toolchain expected by this project.
 
 ## Validate
 

@@ -58,6 +58,14 @@ const config: Config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
+    announcementBar: {
+      id: 'platform-status',
+      content:
+        'xlings 当前在 Linux 平台适配较好，macOS 和 Windows 平台正在逐步适配中。',
+      backgroundColor: '#0f766e',
+      textColor: '#ffffff',
+      isCloseable: true,
+    },
     navbar: {
       title: 'OpenXlings',
       // logo: { alt: 'OpenXlings Logo', src: 'img/logo.svg' },
